@@ -1,0 +1,50 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #4ca56a;
+  }
+  tr:nth-child(2n+1){
+    background-color: golds;
+  }
+  body{
+    background-color:lawngreen;
+  }
+  .img1{
+    width: 300px;
+    height: 300px;
+    clip-path: polygon(45% 2%, 100% 44%, 50% 94%, 0 45%);
+filter: blur(5px);
+  }
+.img2{
+  width: 300px;
+  height: 300px;
+object-fit: cover;
+object-position: center;
+clip-path: polygon(50% 0%, 68% 34%, 98% 35%, 74% 60%, 79% 91%, 47% 71%, 21% 91%, 0 54%, 2% 35%, 34% 24%);
+filter: grayscale(3);
+}
+.img3{
+  width: 300px;
+  height: 300px;
+object-fit: cover;
+object-position: center;
+clip-path: polygon(12% 25%, 100% 0%, 89% 100%, 18% 85%);
+filter: brightness(4);
+}
+.img4{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  clip-path: circle(47.8% at 48% 47%);
+}
